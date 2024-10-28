@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Helvetica Light";
+    src: url("/font/Helvetica\ Light\ Regular.otf");
+
+}
+
+@font-face {
+    font-family: "Helvetica Bold";
+    src: url("/font/Helvetica-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/font/HelveticaNeueThin.otf");
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header {
+    height: 790px;
+    width: 100%;
+    background: url("/ourproducts/ethanolamine.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: -18%;
+    margin-top: -20px;
+}
+
+.logo img {
+    height: 35px;
+}
+
+.nav-links {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -750px;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'Helvetica Light';
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -300px;
+    border: none;
+}
+
+.menu-icon img {
+    width: 35px;
+    height: 15px;
+
+}
+
+.menu-links li {
+    list-style-type: none;
+    font-family: var(--Primary-Font);
+    font-size: 22px;
+
+}
+
+.menu-link a {
+    color: #ffff;
+    top: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-top: 20px;
+}
+
+.menu-close-btn {
+    margin-left: 80%;
+    font-size: 22px;
+    border: none;
+}
+
+.close-btn:hover {
+    color: #ffff;
+}
+
+.menu-list {
+    background: linear-gradient(to bottom, #dd4454 0%, #dd9044 100%);
+    transition: 2s;
+}
+.tabcontent_head{
+    font-size: 24px;
+    font-family: "Helvetica Light";
+    font-weight: bold;
+    padding-left: 70px;
+    color: #010101;
+}
+.tabcontent_first_para{
+    font-size: 20px;
+    font-family: "Helvetica Light";
+    padding-left: 70px;
+    color: #010101;
+}
+.tabcontent_second_para{
+    font-size: 20PX;
+    font-family: "Helvetica Light";
+    padding-left: 90px;
+    color: #010101;
+}
+li::marker{
+    color: #dd4454;
+}
+
+footer {
+    width: 100%;
+    height: 350px;
+    background-color: #073447;
+    color: #ffff;
+}
+
+
+.left-content {
+    padding-top: 50px;
+    padding-left: 55px;
+    font-family: var(--Primary-Font);
+    font-weight: normal;
+
+}
+
+.footer-logo {
+    height: 30px;
+}
+
+.sub-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: -47px;
+    margin-top: -8px;
+}
+
+.input-text-box {
+    width: 45%;
+    border-radius: 100px;
+    padding: 6px 10px 6px 10px;
+    border: 1.5px solid #ffff;
+    font-size: 20px;
+    background-color: #073447;
+    color: #ffff;
+}
+
+.link-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.foot-text {
+    font-size: 18px;
+}
+
+.subscriber-text {
+    font-size: 24px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.foot-list-item {
+    display: flex;
+    margin-left: 55%;
+    margin-right: 50px;
+    height: 100px;
+
+}
+
+.foot-li-item-1 {
+    border-bottom: 1px solid #155d78;
+
+}
+
+.foot-list-item img {
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
+}
+
+.foot-list-text-head {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--Primary-Font);
+}
+
+.foot-list-text-para {
+    margin-top: -20px;
+    font-family: var(--Primary-Font);
+}
+
+.foot-text-1 {
+    font-size: 17px;
+}

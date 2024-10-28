@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veritase</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top head-navbar ">
+        <div class="container-fluid navbar-container">
+            <!-- Left side menu icon -->
+
+            <button class="btn menu-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu-links">
+                <img src="images/menu.png" alt="Menu" style="width: 35px; height: 15px;">
+            </button>
+
+            <!-- Centered logo -->
+            <div class="logo">
+                <a class="navbar-brand" href="#"><img src="images/Logo.png" alt="center-logo"></a>
+            </div>
+
+            <!-- Right side links -->
+            <div>
+                <ul class="navbar-nav right-side">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Profile <img src="images/download_icon.png"
+                                alt="arrow-img" class="down-arrow-icon"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Opportunities</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start menu-list" tabindex="-1" data-bs-backdrop="menu-links" id="menu-links"
+        aria-labelledby="menu-linksLabel">
+        <div class="offcanvas-header">
+
+            <button type="button" class="btn-close close-btn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <ul class="menu-links" id="menu-links">
+                    <li class="menu-link"><a href="about.html">Who We Are</a></li>
+                    <li class="menu-link"><a href="./whatwedo/index.html">What We Do</a></li>
+                    <li class="menu-link"><a href="./ourproducts/index.html">Our Products</a></li>
+                    <li class="menu-link"><a href="./contact/index.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="oilround-image">
+        <!-- <img src="images/Oil_Bubble.png" alt="oil-img" class="oil-img"> -->
+        <div class="bubble"></div>
+        <div class="bubble-text">
+            <p>Vital Oil &<br>Natural Gas</p>
+            <button class="btn btn-lg btn-text get_btn">Get A Quote</button>
+        </div>
+    </div>
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner_01.png" class="d-block w-100" alt="banner-1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner_02.png" class="d-block w-100" alt="banner-2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner_03.png" class="d-block w-100" alt="banner-3">
+                </div>
+            </div>
+            <button class="carousel-control-prev visually-hidden" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next visually-hidden" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="whoweare" id="whoweare">
+
+            <div class="row">
+                <div class="box-container">
+
+                    <div class="box box-1">
+                        <img src="images/Sourcing_Gradient.png" alt="source-img">
+                        <p class="pt-2">Sourcing</p>
+                        <a href="#"><button class="btn whoweare-btn">
+                                <i class="fas fa-chevron-right align-content-center"></i>
+                            </button></a>
+                    </div>
+                    <div class="box box-2">
+                        <img src="images/Trading_gradient.png" alt="trading-img">
+                        <p class="pt-2">Trading</p>
+                        <a href="#"><button class="btn whoweare-btn">
+                                <i class="fas fa-chevron-right align-content-center"></i>
+                            </button></a>
+                    </div>
+                    <div class="box box-3">
+                        <img src="images/Storage_gradient.png" alt="storage-img">
+                        <p class="pt-2">Storage</p>
+                        <a href="#"><button class="btn whoweare-btn">
+                                <i class="fas fa-chevron-right align-content-center"></i>
+                            </button></a>
+                    </div>
+                    <div class="box box-4">
+                        <img src="images/Blending_gradient.png" alt="blending-img">
+                        <p class="pt-2">Blending</p>
+                        <a href="#"><button class="btn whoweare-btn">
+                                <i class="fas fa-chevron-right align-content-center"></i>
+                            </button></a>
+                    </div>
+                    <div class="box box-5">
+                        <img src="images/Shipping_gradient.png" alt="shipping-img">
+                        <p class="pt-2">Shipping</p>
+                        <a href="#"><button class="btn whoweare-btn">
+                                <i class="fas fa-chevron-right align-content-center"></i>
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="whoweare_image_container">
+                <div class="about-container">
+                    <div class="whoweare-image">
+                        <img src="images/who_we_are.png" alt="whoweare-img" class="about-img">
+                    </div>
+                    <div class="about-content">
+                        <p class="about-text-h1">Who we are</p>
+                        <p class="about-text-h2">Integrated Energy Company</p>
+                        <p class="about-para">Veritase is an integrated energy company specializing in Trading, Storage,
+                            Blending and Shipping
+                            of Vital Energy Resources.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="ecosystem-container">
+                    <div class="ecosystem-content">
+                        <p class="ecosystem-text-h1">The Veritase Ecosystem</p>
+                        <!-- <p class="ecosystem-text-h2">Integrated Energy Company</p> -->
+                        <p class="ecosystem-para">Over the years, we have evolved into an ecosystem, comprising of
+                            products,services and support systems that ensure fairness, transparency and sustainability
+                        </p>
+                    </div>
+                    <div class="ecosystem-image">
+                        <img src="images/The_veritase_ecosystem.png" alt="ecosystem-img" class="ml-3">
+                    </div>
+                </div>
+                <div class="whatwedo-container">
+                    <div class="whowedo-image">
+                        <img src="images/What_we_do.png" alt="whowedo-img">
+                    </div>
+                    <div class="whatwedo-content">
+                        <p class="whatwedo-text-h1">What We Do</p>
+                        <p class="whatwedo-h2">Excellence In Energy & Beyond</p>
+                        <p class="whatwedo-para">
+                            At Veritase, we efficiently handle the exchange of oil, petrochemicals, and refined
+                            products,
+                            Our expertise in logistics ensures smooth global energy distribution. We offer a diverse
+                            range
+                            of petroleum products, fertilizers, and petrochemicals, supported by precise blending and
+                            secure
+                            storage. Our collaborations with refiners ensure safe and efficient transportation
+                            guaranteeing
+                            timely and reliable delivery
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-product" id="our-product">
+            <span class="ourproduct-heading">Our Products</span>
+            <div class="ourproduct-container">
+                <div class="image-card">
+                    <img src="images/petroleum products.png" alt="Image 1">
+                    <div class="overlay">
+                        <span class="op-text">Petroleum Products</span>
+                    </div>
+                </div>
+                <div class="image-card">
+                    <img src="images/Fertilizers.png" alt="Image 2">
+                    <div class="overlay">
+                        <span class="op-text">Fertilizers</span>
+                    </div>
+                </div>
+                <div class="image-card">
+                    <img src="images/Petrochemicals.png" alt="Image 3">
+                    <div class="overlay">
+                        <span class="op-text">Petrochemicals</span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-lg ourproduct-btn"><a href="/ourproducts/index.html">Explore more</a></button>
+        </section>
+        <section class="our-team" id="our-team">
+            <div class="team-container">
+                <p class="team-head-text text-center">Our Team</p>
+                <div class="team-content">
+                    <div class="team-left-content">
+                        <p class="team-text-content">
+                            Our success is driven by our people, who form the core of everything we do. With a flat,
+                            merit-bosed structure, we foster a collaborative and entrepreneurial environment where
+                            individuals can efficiently and safely achieve results, within a positive and supportive
+                            workplace. We prioritize creating an inclusive environment that celebrates and nurtures
+                            diversity. ensuring that our colleagues feel a sense of belonging.</p>
+                        <p class="team-text-content-1 pt-2">
+                            Our streamlined hierarchy ensures that our leadership team possesses a deep understanding of
+                            our people, their work styles, and their achievements Our culture defines our work ethic,
+                            cultivates an ideal working atmosphere, and serves as
+                            the foundation of our success. It is embraced and exemplified by the entire team.
+                        </p>
+                    </div>
+                    <div class="team-right-image">
+                        <img src="images/Employee-1.png" alt="emp-1" class="employee-1-img">
+                        <img src="images/Employee-2.png" alt="emp-2" class="employee-2-img">
+                        <img src="images/Employee-3.png" alt="emp-3" class="employee-3-img">
+                        <img src="images/Employee-4.png" alt="emp-4" class="employee-4-img">
+                        <img src="images/Employee-5.png" alt="emp-5" class="employee-5-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="global" id="global">
+            <div class="global-container">
+                <p class="global-head-text">We Spread <br>Around the World</p>
+                <div class="global-list">
+                    <li>
+                        <p class="global-num-text">14</p>
+                        <p class="global-sub-text">Years<br>Experience</p>
+                    </li>
+                    <li>
+                        <p class="global-num-text">06</p>
+                        <p class="global-sub-text">Offices<br>Worldwide</p>
+                    </li>
+                    <li>
+                        <p class="global-num-text">2&nbsp;k</p>
+                        <p class="global-sub-text">Workers<br>Employed</p>
+                    </li>
+                </div>
+                <div class="red-container">
+                    <img src="images/red_dot.png" alt="red-dot" class="red-dot-1">
+                    <img src="images/red_dot.png" alt="red-dot" class="red-dot-2">
+                    <img src="images/red_dot.png" alt="red-dot" class="red-dot-3">
+                    <img src="images/red_dot.png" alt="red-dot" class="red-dot-4">
+                    <img src="images/red_dot.png" alt="red-dot" class="red-dot-5">
+                    <img src="images/red_dot.png" alt="red-dot" class="red-dot-6">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-md-6 col-xl-6 col-lg-6 col-xxl-6 col-sm-6 col-xs-12 left-content">
+                <img src="images/Logo.png" alt="logo" class="footer-logo">
+                <p class="pt-4 subscriber-text">Subscribe Our Newsletter</p>
+                <input type="text" name="text-box" id="text-box" placeholder="example@email.com" class="input-text-box">
+                <img src="images/arrow.png" alt="sub-img" class="sub-icon" id="sub-icon">
+                <p class="pt-4 pb-3 foot-text"><a href="#"><img src="images/linkedin.png" alt="linked-img"
+                            class="link-icon"></a>&nbsp;Follow Us</p>
+                <p class="foot-text-1">@Copyright 2024 Veritase</p>
+            </div>
+            <div class="col-md-6 col-xl-6 col-lg-6 col-xxl-6 col-sm-6 col-xs-12 right-content pt-5">
+                <div class="list-item li-item-1">
+                    <img src="images/location.png" alt="loction-icon" class="location-icon">
+                    <div class="list-text-1">
+                        <p class="list-text-head">Location</p>
+                        <p class="list-text-para">Office #208,209 Spectrum Building<br>Oud Metha, Dubai, UAE</p>
+                    </div>
+                </div>
+                <div class="list-item pt-4 li-item-1">
+                    <img src="images/Contact.png" alt="call-icon" class="call-icon">
+                    <div class="list-text-1">
+                        <p class="list-text-head">Contact</p>
+                        <p class="list-text-para">+971 4 2235254</p>
+                    </div>
+                </div>
+                <div class="list-item pt-4">
+                    <img src="images/mail.png" alt="mail-icon" class="mail-icon">
+                    <div class="list-text-1">
+                        <p class="list-text-head">Email</p>
+                        <p class="list-text-para">info@veritase.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- Bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
+ "></script>
+<script src="script.js"></script>
+</body>
+
+</html>
